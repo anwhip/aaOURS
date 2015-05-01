@@ -41,17 +41,13 @@
    
    
    <Mailboxes>
-        <Mailbox Name="Isle of Quel'Danas" X="12792.77" Y="-6965.978" Z="15.40067"
-                 Nav="Fly" UsableWhen="Me.IsAlliance" />
-   </Mailboxes><GameObject Name="Mailbox" Entry="187113" X="12792.77" Y="-6965.978" Z="15.40067" />
+        <Mailbox Name="Isle of Quel'Danas" X="12792.77" Y="-6965.978" Z="15.40067" />
+   </Mailboxes>
    
    
    <Vendors>      
-       <Vendor Name="Dermot Johns" Id="190" Type="Repair" X="-8897.71" Y="-115.3281" Z="81.84091"
-               Nav="Fly" UsableWhen="Me.IsAlliance" />
-       <Vendor Name="Brother Danil" Id="152" Type="Food" X="-8901.59" Y="-112.716" Z="81.84885"
-               Nav="Fly" UsableWhen="Me.IsAlliance" />
-   </Vendors>
+       <Vendor Name="Smith Hauthaa" Entry="25046" Type="Repair" X="12664.15" Y="-6984.873" Z="14.54623" />
+   </Vendors> 
    
    
    <QuestOrder>
