@@ -1,5 +1,5 @@
 <HBProfile>
-	<Name>Sunwell Plateau Farm [$Rev$]</Name>
+	<Name> Sunwell Plateau Farm [$Rev$]</Name>
 	<MinLevel>70</MinLevel>
 	<MaxLevel>101</MaxLevel>
    
@@ -22,7 +22,7 @@
    
    
    <AvoidMobs>
-       <Mob Name="Fel Reaver" Id="18733" />
+      
    </AvoidMobs>
    
    <Blackspots>
@@ -42,13 +42,13 @@
    
   <Questorder>
    <While Condition="true" >
-       <If Condition="!(Me.MapId == 580)" >
+   <If Condition="!(Me.MapId == 580)" >
 	   
+	   <RunTo X="1704.53" Y="875.05" Z="18.03" />
 	   
-	   <RunTo X="1704.53" Y="875.05" Z="18.03"
+	   <CustomBehavior File="InteractWith" MobState="DontCare" MobId="25363" />
 	   
-	   </If>
-	   
-   </While>
+   </If>   
+   </While> 
   </Questorder> 
 </HBProfile>
