@@ -1,0 +1,64 @@
+<HBProfile>
+   <!--
+     
+         * When using this profile, be certain to set the HonorBuddy bot to Questing
+ 
+                [X] Alliance   [X] Achievement
+                [X] Horde      [X] Farming
+ 
+   
+    -->
+   <Name>Sunwell Plateau Farm</Name>
+   <MinLevel>70</MinLevel>
+   <MaxLevel>101</MaxLevel>
+   
+   <MinDurability>0.4</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+    
+   <MailGrey>false</MailGrey>
+   <MailWhite>false</MailWhite>
+   <MailGreen>true</MailGreen>
+   <MailBlue>true</MailBlue>
+   <MailPurple>true</MailPurple>
+   
+   <SellGrey>true</SellGrey>
+   <SellWhite>false</SellWhite>
+   <SellGreen>false</SellGreen>
+   <SellBlue>false</SellBlue>
+   <SellPurple>false</SellPurple>
+   
+   <TargetElites>true</TargetElites>
+   
+   
+   <AvoidMobs>
+       <Mob Name="Fel Reaver" Id="18733" />
+   </AvoidMobs>
+   
+   <Blackspots>
+       <Blackspot Name="A tree it gets stuck on in the orchard"
+                  X="-8895.609" Y="-428.6633" Z="66.3858" Radius="21.39053" />
+   </Blackspots>
+   
+   
+   <Mailboxes>
+        <Mailbox Name="Isle of Quel'Danas" X="12792.77" Y="-6965.978" Z="15.40067" />
+   </Mailboxes>
+   
+   
+   <Vendors>      
+       <Vendor Name="Smith Hauthaa" Entry="25046" Type="Repair" X="12664.15" Y="-6984.873" Z="14.54623" />
+   </Vendors> 
+   
+   
+   <QuestOrder>
+       <CustomBehavior File="InteractWith" QuestId="10079" MobId="12345"
+                       InteractByGossipOptions="1,1" NumOfTimes="100" />
+   <While Condition="true" >
+       <If Condition="!(Me.MapId == 580)" >
+	   
+	   
+	   <RunTo X="1704.53" Y="875.05" Z="18.03"
+
+   
+   
+</HBProfile>
